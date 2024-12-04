@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pymongo
+pydantic
+dnspython
+passlib 
+cryptography 
+openpyxl
+python-jose
+python-multipart
+boto3
+python-dotenv

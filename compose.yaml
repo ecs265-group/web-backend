@@ -1,0 +1,12 @@
+services:
+  python_backend:
+    build:
+      context: ./python_server
+    ports:
+      - 8000:8000
+
+  mongodb:
+    image: mongo
+    restart: always
+    ports:
+      - 27017:27017
